@@ -27,7 +27,7 @@ For additional materials visit the repo on [Github](https://github.com/ciwg/work
 ## Quick Start
 
 **Copy this template**
-1. Visit the [workshop template](https://github.com/ciwg/workshop-YYYY-MM-DD-template/), and click "Use this template".
+1. Visit the [workshop template](https://github.com/ciwg/workshop-YYYY-MM-DD-template/), and click "Use this template". <br>
 ![:img Template Button, 30%](https://docs.github.com/assets/cb-76823/mw-1440/images/help/repository/use-this-template-button.webp)
 2. Make sure **Owner** is set to "ciwg" - *This makes sure you still retain access to 'Github Pages' Settings later.*
 3. Name your repository following **'workshop-YYYY-MM-DD-workshop-name'** format.

@@ -18,17 +18,16 @@ For additional materials visit the repo on [Github](https://github.com/ciwg/work
 
 1. Quick Start
 2. Setting up Github Pages
-2. Introduction
-3. How it Works
-5. Code Example
-6. Table Example
+3. How it works
+4. Code Example
+5. Table Example
 
 ---
 
 ## Quick Start
 
 **Copy this template**
-1. Visit the [workshop template](https://github.com/ciwg/workshop-YYYY-MM-DD-template/), and click "Use this template".  
+1. Visit the [workshop template](https://github.com/ciwg/workshop-YYYY-MM-DD-template/), and click "Use this template".
 ![:img Template Button, 30%](https://docs.github.com/assets/cb-76823/mw-1440/images/help/repository/use-this-template-button.webp)
 2. Make sure **Owner** is set to "ciwg" - *This makes sure you still retain access to 'Github Pages' Settings later.*
 3. Name your repository following **'workshop-YYYY-MM-DD-workshop-name'** format.
@@ -38,6 +37,14 @@ For additional materials visit the repo on [Github](https://github.com/ciwg/work
 3. Edit `README.md` to create the content of your workshop.
 4. In your terminal, run `make` to generate and host `index.html`
 5. Open http://localhost:8192 to view your slides.
+
+---
+
+## How it Works
+
+.center[![:img How it works, 100%](images/How-it-works.svg)]
+
+**NOTE:** Sometimes the browser caches too aggressively & recent changes won't displayed. Use **`Ctrl+Shift+R`** (or `Cmd+Shift+R` on Mac) to complete a 'hard refresh' of your browser tab.
 
 ---
 
@@ -67,6 +74,7 @@ This template uses [remark](https://remarkjs.com/#1) and Go to build and serve s
 - Configurations (e.g. scroll navigation) can be enabled or disabled
 
 Visit the [wiki](https://github.com/gnab/remark/wiki/Markdown) to understand more built-in formating options.
+
 --
 
 ### Go code:
@@ -74,14 +82,6 @@ The Go code in this repo extends the basic functionality of Remark.js by automat
 
 ???
 This is a speaker note. View speaker mode using "P" hotkey or insert #p to the url, for example: http://localhost:8192/#p5
-
----
-
-## How it Works
-
-.center[![:img How it works, 100%](images/How-it-works.svg)]
-
-**NOTE:** Sometimes the browser caches too aggressively & recent changes won't displayed. Use **`Ctrl+Shift+R`** (or `Cmd+Shift+R` on Mac) to complete a 'hard refresh' of your browser tab.  
 
 ---
 
@@ -131,7 +131,19 @@ You can modify table formatting by editing the CSS in the template file.
 
 ---
 
+# Slide with Footnote
+
+Some content that deserves a note.<sup>[1]</sup>
+
+<div class="footnote">
+[1] This note stays near the bottom of the slide. <br>
+[2] You'll need to include a line break between each footnote.
+</div>
+
+Footnotes will be positioned at the bottom of the slide regardless if they are in-between two text blocks.<sup>[2]</sup>
+
+---
+
 class: center, middle
 
 # Thank You!
-

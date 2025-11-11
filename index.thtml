@@ -25,6 +25,14 @@
       padding: 8px;
     }
 
+    .footnote {
+    position: absolute;
+    bottom: 20px;
+    width: 87%;
+    text-align: left;
+    font-size: 0.75em;
+    color: #666;
+    }
   </style>
 </head>
 <body>
@@ -35,7 +43,7 @@
   <!-- Load remark.js from CDN -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/remark/0.14.0/remark.min.js"></script>
   <script>
-    // Add a custom macro to resize images 
+    // Add a custom macro to resize images
     remark.macros.img = function (altText, width) { var url = this; return '<img alt="' +
       altText + '" src="' + url + '" style="width: ' + width + '" />';
     };

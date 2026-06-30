@@ -35,11 +35,6 @@ JJ Salley
 
 ---
 
-# ntfy
-
-**Open-source push notification service**
-
----
 
 ## What is ntfy?
 
@@ -95,16 +90,6 @@ Tap the notification → opens the commit on GitHub/Gitea.
 
 ---
 
-## Demo: Action Buttons
-
-```
-echo "PR #42 ready" | ./nfty-test -topic nfty-test-jj-2026 \
-  -title "Review Needed" -priority high -tags eyes \
-  -actions "view, Open PR, https://github.com/org/repo/pull/42"
-```
-
----
-
 ## What We Could Use ntfy For
 
 - CI/CD pipeline notifications
@@ -128,6 +113,7 @@ echo "PR #42 ready" | ./nfty-test -topic nfty-test-jj-2026 \
 ---
 
 ## What You Need
+
 
 - Twilio account (free trial gives ~$15 credit)
 - A Twilio phone number (~$1.15/month)
